@@ -58,6 +58,7 @@ form.off().submit(function (e) {
 
 
 // TODO:绑定事件
+//判断所有的选项是否被选中，全被选中返回1，否则返回0
 function langscheck(){
 var i=1;
    langs.each(function(){
@@ -67,6 +68,7 @@ var i=1;
    });
    return i;
 }
+//点击全选之后，x=1，全部选中，x=0，全部不选
 function langclickall(x){
  if(x){
    langs.each(function(){
