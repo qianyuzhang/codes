@@ -68,7 +68,7 @@ var i=1;
    });
    return i;
 }
-//点击全选之后，x=1，全部选中，x=0，全部不选
+//点击全选之后，x=1，全部选中;x=0，全部不选
 function langclickall(x){
  if(x){
    langs.each(function(){
